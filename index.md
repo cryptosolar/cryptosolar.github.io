@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Test Website</title>
+<title>Test Website</title></head>
 <body BGCOLOR=#808042>
 
 <H1 ALIGN=center> Cryptosolar</H1>
