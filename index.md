@@ -1,8 +1,35 @@
 <html>
 <head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
 </head>
 <body>
+<h2>CSS Buttons</h2>
+
+<button>Default Button</button>
+<a href="#" class="button">Link Button</a>
+<button class="button">Button</button>
+<input type="button" class="button" value="Input Button">
 <H1>Cryptosolar</H1>
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
 <H1>Cryptosolar</H1>
 <a href="https://www.w3schools.com/tags/default.asp">HTML Tags Ordered Alphabetically</A>
 <H1><EM> Cryptosolar</EM> rocks</H1><BR>
