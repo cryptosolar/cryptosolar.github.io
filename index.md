@@ -1,10 +1,9 @@
 <html>
 <head>
 </head>
-<body BGCOLOR=#808042>
-
-<H1 ALIGN=center> Cryptosolar</H1>
-<H1> Cryptosolar</H1>
+<body>
+<H1 ALIGN=center>Cryptosolar</H1>
+<H1>Cryptosolar</H1>
 <a href="https://www.w3schools.com/tags/default.asp">HTML Tags Ordered Alphabetically</A>
 <H1 ALIGN=right><EM> Cryptosolar</EM> rocks</H1><BR>
 <H2><TT> Cryptosolar</TT> rocks</H2>
