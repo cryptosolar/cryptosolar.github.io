@@ -1,5 +1,6 @@
 <html>
 <head>
+<link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
 <H1>Cryptosolar</H1>
