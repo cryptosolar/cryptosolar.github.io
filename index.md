@@ -3,7 +3,6 @@
 <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-<a href="/flexboxing.html"><H1>Cryptosolar</H1></A>
 <form action="/action_page.php">
   <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname"><br><br>
@@ -11,7 +10,7 @@
   <input type="text" id="lname" name="lname"><br><br>
   <input type="submit" value="Submit">
 </form>
-<H1>Cryptosolar</H1>
+<br>
 <a href="https://www.w3schools.com/tags/default.asp">HTML Tags Ordered Alphabetically</A>
 <H1><EM> Cryptosolar</EM> rocks</H1><BR>
 <H2><TT> Cryptosolar</TT> rocks</H2>
@@ -21,8 +20,10 @@
   <source src="https://siasky.net/CABJtRBq1iJ3oOaMt5NdH5gpLbbSqD37OY7idRvV-oJ7LQ" type="video/mp4">
  <!-- Dieser Text ist ein Kommentar -->
 </video>
-
+<br>
+<a href="https://cryptosolar.github.io/flexboxing.html">Cryptosolar</A>
+<br>
 <p><b>Note:</b> The autoplay attribute does not work on some mobile devices.</p>
-
+<br>
 </body>
 </html>
