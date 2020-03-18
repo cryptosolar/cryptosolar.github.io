@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-<a href="/flexboxing.html"><H1>Cryptosolar</H1>
+<a href="/flexboxing.html"><H1>Cryptosolar</H1></A>
 <form action="/action_page.php">
   <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname"><br><br>
