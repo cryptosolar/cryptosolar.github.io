@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="stylesheet" href="https://cryptosolar.github.io/stylesheet.css">
+<link rel="stylesheet" href="https://cryptosolar.github.io/main.css">
 </head>
 <body>
 <form action="/action_page.php">
