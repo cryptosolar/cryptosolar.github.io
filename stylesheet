@@ -6,12 +6,12 @@ h1 {
 	background: none;
 }
 
-h1 {
-	color: red;
-	background-color: yellow;
-}
-}
 h2 {
 	color: red;
 	background-color: yellow;
+}
+
+h3 {
+	color: yellow;
+	background-color: red;
 }
