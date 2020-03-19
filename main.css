@@ -136,3 +136,18 @@ p.flex-item {
   width: 200px;
   height: 150px;
 } 
+
+/*gradients*/
+
+#grad1 {
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
+}
+
+#grad2 {
+  background-image: radial-gradient(circle, red, yellow, green);
+}
+
+#grad3 {
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
