@@ -35,5 +35,6 @@
 <p><b>Note:</b> The autoplay attribute does not work on some mobile devices.</p>
 <br>
 </section>
+	</div>
 </body>
 </html>
