@@ -1,4 +1,5 @@
 h1 {
+	color: blue;
 	margin: 1;
 	padding: 2;
 	border: 2 none;
@@ -14,4 +15,37 @@ h2 {
 h3 {
 	color: yellow;
 	background-color: red;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.flex-item {
+	flex: auto;
+	border: 1px solid;
+	margin: .5em;
+	padding: .5em;
+	background: #ffebe6;
+}
+
+p.flex-item {
+	font-weight: bold;
+	text-align: center;
+}
+
+.flex-item:nth-of-type(2) {
+	background: #fdfcf3;
+}
+
+.flex-item:nth-of-type(3) {
+	background: #ebf5d7;
+}
+
+.flex-item:nth-of-type(4) {
+	background: #e6f2f7;
+}
+
+.flex-item:nth-of-type(5) {
+	background: hsla(277, 53%, 73%, 0.3);
 }
