@@ -13,6 +13,13 @@
   <input type="text" id="lname" name="lname"><br><br>
   <input type="submit" value="Submit">
 </form>
+<br>
+<script>
+	var eingabe;
+eingabe = prompt('Bitte geben Sie Ihren Namen ein!', '');
+alert('Hallo, ' + eingabe);
+</script>
+<br>
 </section>
 <br>
 <section class="flex-item">
