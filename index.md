@@ -28,16 +28,6 @@ alert('Hallo, ' + eingabe);
 <section class="flex-item">
 <H1><EM> Cryptosolar</EM> rocks</H1><BR>
 <H2><TT> Cryptosolar</TT> rocks</H2>
-<h2>Primzahlcheck</h2>
-	<form name="PrimzahlFormular">
-		<p>Geben Sie eine Zahl ein. Es wird geprüft, ob es sich um eine Primzahl handelt.</p>
-		<label for="Eingabezahl">Eingabezahl: </label>
-		<input type="number" id="Eingabezahl">
-		<button type="button" id="PrimZahlCheck">auf Primzahl checken</button>
-	</form>
-	<p>
-		<output></output>
-	</p>
 <H3><U> Cryptosolar</U><VAR> rocks</VAR></H3>
 <H4><B> Cryptosolar</B> rocks</H4>
 </section>
