@@ -16,8 +16,8 @@ h3 {
 /*flex container*/
 .flex-container {
 	display: flex;
-	flex-flow: row wrap;
-	max-width: 45em;
+	flex-flow: centre wrap;
+	max-width: auto;
 	border: 2px dotted;
 }
 
