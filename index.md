@@ -28,7 +28,7 @@
 </section>
 <section class="flex-item">
 <video  width="640" height="480" controls preload="auto">
-  <source src="https://youtu.be/HMRflEUHDZw" type="video/mp4">
+  <source src="https://youtube/HMRflEUHDZw" type="video/mp4">
  <!-- Dieser Text ist ein Kommentar -->
 </video>
 <br>
