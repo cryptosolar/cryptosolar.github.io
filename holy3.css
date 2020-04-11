@@ -69,7 +69,7 @@
   font-weight: bold;
   position: fixed;
   top: 0;
-  width: 50%;
+  width: 100%;
   transition: 0.2s;
 }
   /* Too narrow to support three columns */
