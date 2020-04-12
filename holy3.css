@@ -6,8 +6,8 @@
 
   #main {
    min-height: 800px;
-   margin: 0px;
-   padding: 0px;
+   margin: 4px;
+   padding: 5px;
    display: -webkit-flex;
    display:         flex;
    -webkit-flex-flow: row;
@@ -62,10 +62,11 @@
 
   #header {
   background-color: #0c9c14;
-  padding: 5px 10px;
+  border: 1px solid #8888bb;
+  border-radius: 7pt;
   color: black;
   text-align: center;
-  font-size: 90px; 
+  font-size: 30px; 
   font-weight: bold;
   position: fixed;
   top: 0;
