@@ -1,6 +1,6 @@
   body {
    font: 24px Helvetica;
-   background: #999999;
+   background: #17736f; /*background colour of the whole theme*/
    margin: 5px;
   }
 
@@ -17,9 +17,9 @@
   #main > article {
    margin: 4px;
    padding: 5px;
-   border: 1px solid #cccc33;
+   border: 1px solid #17736f;
    border-radius: 7pt;
-   background: #dddd88;
+   background: #46ebe5; /*türkis*/
    -webkit-flex: 3 1 60%;
            flex: 3 1 60%;
    -webkit-order: 2;
@@ -61,15 +61,14 @@
    }
 
   #header {
-  background-color: #0c9c14;
-  border: 1px solid #8888bb;
-  border-radius: 7pt;
+  background-color: #17736f; /*must be same as body background colour*/
+  padding: 5px 10px;
   color: black;
   text-align: center;
   font-size: 50px; 
   font-weight: bold;
   position: fixed;
-  top: 0;
+  top: 0;  /*No space on top*/
   width: 100%;
   transition: 0.2s;
 }
