@@ -1,12 +1,40 @@
 /*header*/
+
+/*rgb()
+Farben können durch das Rot-Grün-Blau-Modell (RGB-Modell) auf zwei Weisen definiert werden:
+
+Hexadezimale Notation #RRGGBB und #RGB
+"#", gefolgt von sechs hexadezimalen Zeichen (0-9, A-F).
+"#", gefolgt von drei hexadezimalen Zeichen (0-9, A-F).
+Die Drei-Ziffern-RGB-Notation (#RGB)
+die Sechs-Ziffern-Form (#RRGGBB) sind gleich.
+#f03 und #ff0033 selbe Farbe.
+Funktionelle Notation rgb(R,G,B)
+"rgb", gefolgt von drei <integer> oder drei <percentage> Werten.
+Die Ganzzahl 255 entspricht 100% und F oder FF in der hexadezimalen Schreibweise.
+
+ Diese Beispiele definieren alle dieselbe RGB-Farbe: 
+ 
+ #f03
+ #F03
+ #ff0033
+ #FF0033
+ rgb(255,0,51)
+ rgb(255, 0, 51)
+ rgb(255, 0, 51.2) FEHLER! Keine Bruchzahlen verwenden, nur Ganzzahlen.  
+ rgb(100%,0%,20%)
+ rgb(100%, 0%, 20%)
+ rgb(100%, 0, 20%)  FEHLER! Ganzzahl- und Prozentschreibweise dürfen nicht gemischt werden. */
 h1 {
 	color: blue;
 	background-color: white;
+    font-size: 17px;
 }
 
 h2 {
 	color: red;
 	background-color: yellow;
+	font-size: 12px;
 }
 
 h3 {
@@ -32,8 +60,16 @@ input {
 	padding: .5em;
 	background: #ffebe6;
 }
+/*This is the complete list of background-size values:
 
+auto - Default value.
+length - As example: 100% auto or 400px auto. The first value is for the width, the second for the height.
+cover - Cover the complete area.
+contain - Scale the image to its biggest size.
+initial - Set this propery to its default.
+inherit - Inherited from the parent.*/
 p.flex-item {
+    border: 5px dashed #ddd;
 	font-weight: bold;
 	text-align: center;
 	width: 12em;
@@ -41,18 +77,80 @@ p.flex-item {
 
 .flex-item:nth-of-type(2) {
 	background: #fdfcf3;
+	background-image: url("https://cryptosolar.github.io/3.jpg");
+    background-size: cover;
+    
 }
 
 .flex-item:nth-of-type(3) {
 	background: #ebf5d7;
+	border: 2px dashed #333;
 }
 
 .flex-item:nth-of-type(4) {
 	background: #e6f2f7;
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .flex-item:nth-of-type(5) {
-	background: hsla(277, 53%, 73%, 0.3);
+	background: hsla(277, 13%, 13%, 0.9);
+    background-image: url("https://cryptosolar.github.io/4.jpg");
+    background-size: auto 100%; /**/
+    
+}
+
+.flex-item:nth-of-type(6) {
+	background-image: url("https://cryptosolar.github.io/1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+/*  
+Mehrere Hintergründe festzulegen ist einfach:
+
+.myclass {
+  background: background1, background 2, ..., background;
+}
+Nur dem untersten Hintergrund kann eine Hintergrundfarbe zugewiesen werden.
+
+Du kannst dies mit beiden Varianten, der verkürzten background Eigenschaft und dem Einzel-Eigenschafts-Selektor davon ausser background-color. Die folgenden Hintergrund Eigenschaften können als Liste festgelegt werden, eine pro Hintergrund:
+background,
+background-attachment,
+background-clip,
+background-image,
+background-origin,
+background-position,
+background-repeat,
+background-size.
+*/
+.multi_bg_example {
+  background-image: url(https://mdn.mozillademos.org/files/11305/firefox.png),
+                    url(https://mdn.mozillademos.org/files/11307/bubbles.png),
+                    linear-gradient(to right, rgba(30, 75, 115, 1),  rgba(255, 255, 255, 0));
+
+  background-repeat: no-repeat,
+                     no-repeat,
+                     no-repeat;
+
+  background-position: bottom right,
+                       left,
+                       right;
+}	
+
+.multi_bg_example {
+  width:100%;
+  height:400px;
+  background: url(https://mdn.mozillademos.org/files/11305/firefox.png),
+            url(https://mdn.mozillademos.org/files/11307/bubbles.png),
+  -moz-linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)),
+  -webkit-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)),
+  -ms-linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)),
+  linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
 }
 
 /*animatede container*/
@@ -231,8 +329,16 @@ p.flex-item {
 }
 
 #rcorners8 {
- border-radius: 15px / 50px;
+ border-radius: 5px / 4px;
  background-image: url("https://cryptosolar.github.io/1.jpg");
+}
+
+#rcorners9 {
+ height: 300px;
+ border-radius: 1px / 1px;
+ background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+ background-image: url("https://cryptosolar.github.io/1.jpg");
+
 }
 
 /*gradients*/
@@ -242,7 +348,7 @@ p.flex-item {
   background-image: linear-gradient(0deg, red, yellow); /* Standard syntax (must be last) */
 }
 #grad2 {
-  height: 200px;
+  height: 175px;
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
 }
 
@@ -260,4 +366,8 @@ p.flex-item {
 
 #grad6 {
   background-image: url("https://cryptosolar.github.io/3.jpg");
+}
+
+#grad7 {
+  background: repeating-linear-gradient(-45deg, red, red 5px, white 5px, white 10px);
 }
