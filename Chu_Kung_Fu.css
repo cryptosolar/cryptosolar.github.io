@@ -1,0 +1,173 @@
+ body {
+   font: 20px Trebuchet MS;
+   background: #f0f0f0;
+  }
+
+  #main {
+   min-height: 800px;
+   margin: 0px;
+   padding: 0px;
+   display: -webkit-flex;
+   display:         flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+   }
+ 
+  #main > article {
+   margin: 1px;
+   padding: 2px;
+   border: 1px solid gray;
+   border-radius: 2pt;
+   background: cyan;
+   -webkit-flex: 3 1 60%;
+           flex: 3 1 60%;
+   -webkit-order: 2;
+           order: 2;
+   }
+  
+  #main > nav {
+   margin: 1px;
+   padding: 2px;
+   border: 1px solid navy;
+   border-radius: 2pt;
+   background: lime;
+   -webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   -webkit-order: 1;
+           order: 1;
+   }
+  
+  #main > aside {
+   margin: 1px;
+   padding: 2px;
+   border: 1px solid forestgreen;
+   border-radius: 2pt;
+   background: green;
+   -webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   -webkit-order: 3;
+           order: 3;
+   }
+ 
+  header, footer {
+   display: block;
+   margin: 1px;
+   padding: 2px;
+   min-height: 100px;
+   border: 1px solid springgreen;
+   border-radius: 1pt;
+   background: snow;
+   }
+ 
+  /* Too narrow to support three columns */
+  @media all and (max-width: 640px) {
+  
+   #main, #page {
+    -webkit-flex-flow: column;
+            flex-direction: column;
+   }
+
+   #main > article, #main > nav, #main > aside {
+    /* Return them to document order */
+    -webkit-order: 0;
+            order: 0;
+   }
+  
+   #main > nav, #main > aside, header, footer {
+    min-height: 50px;
+    max-height: 50px;
+   }
+  }
+/*rounded corners*/
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px; 
+  height: 150px;  
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  height: 150px;  
+}
+
+#rcorners3 {
+  border-radius: 15px;
+  background: url("https://cryptosolar.github.io/2.jpg");
+  background-position:left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  height: 150px;  
+}
+/*Elliptical border*/
+#rcorners4 {
+  border-radius: 50px / 15px;
+  background-image: radial-gradient(circle, red, yellow, green);
+  padding: 20px; 
+  height: 150px; 
+}
+
+#rcorners5 {
+  border-radius: 15px / 50px;
+  background-image: linear-gradient(0deg, red, yellow);
+  padding: 20px; 
+  height: 150px; 
+}
+
+#rcorners6 {
+  border-radius: 50%;
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+  padding: 20px; 
+  height: 150px;
+}
+
+#rcorners7 {
+ border-radius: 15px / 5px;
+ background-image: url("https://cryptosolar.github.io/4.jpg");
+}
+
+#rcorners8 {
+ border-radius: 5px / 4px;
+ background-image: url("https://cryptosolar.github.io/1.jpg");
+}
+
+#rcorners9 {
+ height: 300px;
+ border-radius: 1px / 1px;
+ background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+ background-image: url("https://cryptosolar.github.io/1.jpg");
+
+}
+
+/*gradients*/
+#grad1 {
+  height: 100px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(0deg, red, yellow); /* Standard syntax (must be last) */
+}
+#grad2 {
+  height: 175px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
+}
+
+#grad3 {
+  background-image: radial-gradient(circle, red, yellow, green);
+}
+
+#grad4 {
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
+#grad5 {
+  background-image: url("https://cryptosolar.github.io/1.jpg");
+}
+
+#grad6 {
+  background-image: url("https://cryptosolar.github.io/3.jpg");
+}
+
+#grad7 {
+  background: repeating-linear-gradient(-45deg, red, red 5px, white 5px, white 10px);
+}
