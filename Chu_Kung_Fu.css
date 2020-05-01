@@ -37,7 +37,7 @@ h3 {
    padding: 2px;
    border: 10px solid gray;
    border-radius: 2pt;
-   background: cyan;
+   background: snow;
    -webkit-flex: 3 1 60%;
            flex: 3 1 60%;
    -webkit-order: 2;
@@ -130,15 +130,15 @@ h3 {
 
 #rcorners5 {
   border-radius: 15px / 50px;
-  background-image: linear-gradient(0deg, red, yellow);
-  padding: 20px; 
-  height: 150px; 
+  background-image: linear-gradient(90deg, cyan, green);
+  padding: 10px; 
+  height: 75px; 
 }
 
 #rcorners6 {
-  border-radius: 50%;
-  background-image: repeating-radial-gradient(lightseagreen, aqua 10%, turquoise 15%);
-  padding: 20px; 
+  border-radius: 5%;
+  background-image: repeating-radial-gradient(lightseagreen, aquamarine 20%, turquoise 60%);
+  padding: 2px; 
   height: 150px;
 }
 
@@ -149,7 +149,7 @@ h3 {
 
 #rcorners8 {
  border-radius: 5px / 4px;
- background-image: url("https://cryptosolar.github.io/1.jpg");
+ background-image: url("https://siasky.net/3AA5KCwL-xx_EH27p4jufUm0KrVxz1LNuG4w60bpdExjmg");
 }
 
 #rcorners9 {
@@ -163,7 +163,6 @@ h3 {
 /*gradients*/
 #grad1 {
 
-  background-color: red; /* For browsers that do not support gradients */
   background-image: linear-gradient(5deg, lightaquamarine, darkblue); /* Standard syntax (must be last) */
 }
 #grad2 {
@@ -176,17 +175,17 @@ h3 {
 }
 
 #grad4 {
-  background-image: repeating-radial-gradient(mediumaquamarine, lightsteelblue 10%, turquoise 15%);
+  background-image: repeating-radial-gradient(aqua, steelblue 10%, turquoise 15%);
 }
 
 #grad5 {
-  background-image: url("https://cryptosolar.github.io/1.jpg");
+  background-image: ;
 }
 
 #grad6 {
-  background-image: url("https://cryptosolar.github.io/3.jpg");
+  background-image: ;
 }
 
 #grad7 {
-  background: repeating-linear-gradient(-45deg, red, red 5px, white 5px, white 10px);
+  background: linear-gradient(to left, rgba(6,167,116,0), rgba(102,255,217,1));;
 }
