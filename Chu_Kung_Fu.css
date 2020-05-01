@@ -59,7 +59,7 @@ h3 {
   #main > aside {
    margin: 1px;
    padding: 2px;
-   border: 10px solid paleturquoise;
+   border: 10px solid forestgreen;
    border-radius: 2pt;
    background: turquoise;
    -webkit-flex: 1 6 20%;
@@ -99,10 +99,12 @@ h3 {
   }
 /*rounded corners*/
 #rcorners1 {
-  border-radius: 25px;
-  background: turquoise;
-  padding: 20px; 
-  height: 150px;  
+    border-radius: 25px;
+    border: 5px solid darkcyan;
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: radial-gradient(circle,#43cea2 , #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 150px; 
 }
 
 #rcorners2 {
@@ -114,37 +116,36 @@ h3 {
 
 #rcorners3 {
   border-radius: 15px;
-  background: linear-gradient(0deg, aqua, darkcyan); 
-  background-position:left top;
-  background-repeat: repeat;
-  padding: 20px; 
+  background: linear-gradient(180deg,aqua , deepskyblue); 
+  padding: 10px; 
   height: 150px;  
 }
 /*Elliptical border*/
 #rcorners4 {
-  border-radius: 50px / 15px;
-  background-image: radial-gradient(circle, greenyellow, darkcyan, turquoise);
+  border-radius: 10px / 15px;
+  border: 2px solid royalblue;
+  background-image: radial-gradient(circle, paleturquoise ,aqua , royalblue);
   padding: 20px; 
   height: 150px; 
 }
 
 #rcorners5 {
   border-radius: 15px / 50px;
-  background-image: radial-gradient(darkturquoise, paleturquoise);
+  background-image: radial-gradient(paleturquoise, darkturquoise);
   padding: 10px; 
   height: 150px; 
 }
 
 #rcorners6 {
   border-radius: 5%;
-  background-image: repeating-radial-gradient(paleturquoise, aquamarine 20%, turquoise 60%);
+  background-image: repeating-radial-gradient(aqua, aquamarine 25%, turquoise 95%);
   padding: 2px; 
   height: 150px;
 }
 
 #rcorners7 {
  border-radius: 15px / 5px;
- background-image: radial-gradient(circle, paleturquoise, cyan, turquoise);
+ background-image: radial-gradient(circle, lightseagreen, cyan, turquoise);
 }
 
 #rcorners8 {
@@ -174,7 +175,7 @@ h3 {
 }
 
 #grad4 {
-  background-image: radial-gradient(circle, darkturquoise, paleturquoise, turquoise);
+  background-image: radial-gradient(circle, darkturquoise, mediumturquoise, turquoise);
 }
 
 #grad5 {
