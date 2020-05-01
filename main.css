@@ -279,11 +279,12 @@ background-size.
   right: 0;
 }
 /*rounded corners*/
+/*rounded corners*/
 #rcorners1 {
   border-radius: 25px;
-  background: #73AD21;
-  padding: 20px; 
-  height: 150px;  
+  background: #00e6078f;
+  padding: 20px;
+  height: 150px;
 }
 
 #rcorners2 {
@@ -318,7 +319,7 @@ background-size.
 
 #rcorners6 {
   border-radius: 50%;
-  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+  background-image: repeating-radial-gradient(#15ff00, yellow 10%, green 15%);
   padding: 20px; 
   height: 150px;
 }
@@ -353,7 +354,7 @@ background-size.
 }
 
 #grad3 {
-  background-image: radial-gradient(circle, red, yellow, green);
+  background-image: radial-gradient(circle, #d8ff00, #00ff14, #005d00);
 }
 
 #grad4 {
