@@ -1,8 +1,8 @@
   h1 {
     font: Verdana;
     text-align: center;
-	color: blue;
-	background-color: aquamarine;
+	color: black;
+	background-color: lightcyan;
     font-size: 25px;
 }
 
@@ -19,7 +19,7 @@ h3 {
  
  body {
    font: 20px Verdana;
-   background: #f0f0f0;
+   background: #E6E6E6;
   }
 
   #main {
@@ -33,11 +33,11 @@ h3 {
    }
  
   #main > article {
-   margin: 1px;
-   padding: 2px;
-   border: 10px solid gray;
+   margin: 0px;
+   padding: 1px;
+   border: 1px solid rgb(6,164,116);
    border-radius: 2pt;
-   background: snow;
+   background: rgb(102,255,217);
    -webkit-flex: 3 1 60%;
            flex: 3 1 60%;
    -webkit-order: 2;
@@ -45,9 +45,9 @@ h3 {
    }
   
   #main > nav {
-   margin: 1px;
-   padding: 2px;
-   border: 10px solid navy;
+   margin: 0px;
+   padding: 0px;
+   border: 1px solid navy;
    border-radius: 8pt;
    background: mediumaquamarine;
    -webkit-flex: 1 6 20%;
@@ -58,8 +58,8 @@ h3 {
   
   #main > aside {
    margin: 1px;
-   padding: 2px;
-   border: 10px solid forestgreen;
+   padding: 1px;
+   border: 3px solid forestgreen;
    border-radius: 2pt;
    background: turquoise;
    -webkit-flex: 1 6 20%;
@@ -73,7 +73,7 @@ h3 {
    margin: 1px;
    padding: 2px;
    min-height: 100px;
-   border: 10px solid darkturquoise;
+   border: 3px solid darkturquoise;
    border-radius: 1pt;
    background: snow;
    }
@@ -145,7 +145,7 @@ h3 {
 
 #rcorners7 {
  border-radius: 15px / 5px;
- background-image: radial-gradient(circle, lightseagreen, cyan, turquoise);
+ background-image: radial-gradient(circle, aquamarine, mediumturquoise, cyan);
 }
 
 #rcorners8 {
@@ -159,6 +159,28 @@ h3 {
  border-radius: 10px / 10px;
  background: linear-gradient(to right, rgba(0,51,38,0), rgba(0,51,38,1));
 }
+#rcorners10 {
+ border-radius: 15px / 5px;
+ background-image: url("https://cryptosolar.github.io/blood.jpg");
+}
+
+#rcorners11 {
+ border-radius: 15px / 5px;
+ background-image: url("https://cryptosolar.github.io/blood.svg");
+}
+
+#rcorners12 {
+ border-radius: 5px / 4px;
+ background-image: url("https://cryptosolar.github.io/blood2.jpg");
+}
+
+#rcorners13 {
+ height: 300px;
+ border-radius: 1px / 1px;
+ background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+ background-image: url("https://cryptosolar.github.io/blood2.svg");
+
+}
 
 /*gradients*/
 #grad1 {
@@ -167,11 +189,11 @@ h3 {
 }
 #grad2 {
   
-  background-image: linear-gradient(to right, rgba(6,167,116,0), rgba(102,255,217,1)); /* Standard syntax (must be last) */
+  background-image: linear-gradient(to right, rgba(6,100,116,0), rgba(102,255,217,1)); /* Standard syntax (must be last) */
 }
 
 #grad3 {
-  background-image: radial-gradient(circle, aquamarine, turquoise, darkturquoise);
+  background-image: radial-gradient(circle, aquamarine, turquoise, mediumturquoise);
 }
 
 #grad4 {
@@ -188,5 +210,5 @@ h3 {
 }
 
 #grad7 {
-  background: linear-gradient(to left, rgba(6,167,116,0), rgba(102,255,217,1));;
+  background: linear-gradient(to left, rgba(6,167,116,0), rgba(102,255,217,1));
 }
