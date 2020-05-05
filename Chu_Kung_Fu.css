@@ -1,4 +1,4 @@
-   h1 {
+ h1 {
     font: Verdana;
     text-align: center;
 	color: black;
@@ -118,6 +118,7 @@ h3 {
   border: 10px solid darkcyan;
   padding: 20px; 
   height: 150px;  
+  box-shadow: 5px 5px 3px 1px rgba(0,0,0,.4);
 }
 
 #rcorners3 {
@@ -125,6 +126,7 @@ h3 {
   background: linear-gradient(180deg,aqua , deepskyblue); 
   padding: 10px; 
   height: 150px;  
+  box-shadow: 5px 5px 3px 1px #999;
 }
 /*Elliptical border*/
 #rcorners4 {
@@ -133,6 +135,7 @@ h3 {
   background-image: radial-gradient(circle, paleturquoise ,aqua , royalblue);
   padding: 20px; 
   height: 150px; 
+  box-shadow: 0 0 20px 5px #06c;
 }
 
 #rcorners5 {
@@ -140,6 +143,7 @@ h3 {
   background-image: radial-gradient(paleturquoise, darkturquoise);
   padding: 10px; 
   height: 150px; 
+  box-shadow: 0 0 20px 5px #06c;
 }
 
 #rcorners6 {
@@ -147,29 +151,34 @@ h3 {
   background-image: repeating-radial-gradient(aqua, aquamarine 25%, turquoise 95%);
   padding: 2px; 
   height: 150px;
+  box-shadow: 5px 5px 3px 1px #999;
 }
 
 #rcorners7 {
  border-radius: 15px / 5px;
  background-image: radial-gradient(circle, aquamarine, mediumturquoise, cyan);
+ box-shadow: 5px 5px 3px 1px rgba(0,0,0,.4);
 }
 
 #rcorners8 {
  height: 200px;
  border-radius: 5px / 4px;
  background-image: radial-gradient(circle, azure, turquoise, darkcyan);
+ box-shadow: 5px 5px 3px 1px #999;
 }
 
 #rcorners9 {
  height: 100px;
  border-radius: 10px / 10px;
  background: linear-gradient(to right, rgba(0,51,38,0), rgba(0,51,38,1));
+ box-shadow: 5px 5px 3px 1px rgba(0,0,0,.4);
 }
 #rcorners10 {
  border-radius: 5px / 5px;
  background-image: url("https://cryptosolar.github.io/blood.jpg");
  background-position: center;
  background-size: 100% auto; 
+ box-shadow: 5px 5px 3px 1px rgba(0,0,0,.4);
 }
 
 #rcorners11 {
@@ -177,6 +186,8 @@ h3 {
  background-image: url("https://cryptosolar.github.io/blood.svg");
  background-position: center;
  background-size: cover; 
+ -webkit-box-shadow: 5px 5px 5px 5px #4C8C38;
+box-shadow: 5px 5px 5px 5px #4C8C38;
     
 }
 
@@ -185,6 +196,7 @@ h3 {
  background-image: url("https://cryptosolar.github.io/blood2.jpg");
  background-position: center;
  background-size: cover;   
+ box-shadow: 0 0 20px 5px #06c;
 }
 
 #rcorners13 {
@@ -193,6 +205,7 @@ h3 {
  background-repeat: no-repeat; /*repeat =standard*/
     background-position: center;
     background-size: cover;
+	box-shadow: 0 0 20px 5px #06c;
 }
 
 #rcorners14 {
@@ -200,6 +213,7 @@ h3 {
  background-image: url("https://cryptosolar.github.io/blood.jpg");
  background-position: center;
  background-size: 100% auto; 
+ box-shadow: 5px 5px 3px 1px #999;
 }
 
 #rcorners15 {
@@ -207,6 +221,7 @@ h3 {
  background-image: url("https://cryptosolar.github.io/blood.svg");
  background-position: center;
  background-size: cover; 
+ box-shadow: inset 0 0 10px 0 rgba(0,0,0,.4);
     
 }
 
@@ -215,6 +230,7 @@ h3 {
  background-image: url("https://cryptosolar.github.io/blood2.jpg");
  background-position: center;
  background-size: cover;   
+ box-shadow: inset 0 0 10px 0 rgba(0,0,0,.4);
 }
 
 #rcorners17 {
@@ -223,55 +239,147 @@ h3 {
  background-repeat: no-repeat; /*repeat =standard*/
     background-position: center;
     background-size: cover;
+	box-shadow: inset 0 0 10px 0 rgba(0,0,0,.4);
 }
 
 /*gradients*/
 #grad1 {
 
   background-image: linear-gradient(90deg, aqua, darkblue); /* Standard syntax (must be last) */
+  box-shadow: 5px 5px 3px 1px #999;
 }
 #grad2 {
   
   background-image: linear-gradient(to right, rgba(6,100,116,0), rgba(102,255,217,1)); /* Standard syntax (must be last) */
+box-shadow: 5px 5px 3px 1px #999;
 }
 
 #grad3 {
   background-image: radial-gradient(circle, aquamarine, turquoise, mediumturquoise);
+  -webkit-box-shadow: 5px 5px 5px 5px #4C8C38;
+box-shadow: 5px 5px 5px 5px #4C8C38;
 }
 
 #grad4 {
   background-image: radial-gradient(circle, darkturquoise, mediumturquoise, turquoise);
+  -webkit-box-shadow: 5px 5px 5px 5px #4C8C38;
+box-shadow: 5px 5px 5px 5px #4C8C38;
 }
 
 #grad5 {
   background-image: radial-gradient(circle, azure, turquoise, steelblue);
+  -webkit-box-shadow: 5px 5px 5px 5px #4C8C38;
+box-shadow: 5px 5px 5px 5px #4C8C38;
 }
 
 #grad6 {
   height: 200px;
   background-image: radial-gradient(circle, steelblue, darkcyan, turquoise);
+  box-shadow: inset 0 0 10px 0 rgba(0,0,0,.4);
 }
 
 #grad7 {
   background: linear-gradient(to left, rgba(6,200,116,0), rgba(102,255,217,1));
+  box-shadow: 0 0 20px 5px #06c;
 }
 
 #grad8 {
-    height: 200px;
+    height: 1500px;
   background-image: url("https://cryptosolar.github.io/33.jpg");
+  box-shadow: inset 0 0 10px 0 rgba(0,0,0,.4);
 }
 
 #grad9 {
     height: 100px;
   background-image: url("https://cryptosolar.github.io/help.svg");
+  box-shadow: 5px 5px 3px 1px rgba(0,0,0,.4);
 }
 
 #grad10 {
     height: 100px;
   background-image: url("https://cryptosolar.github.io/blood3.svg");
+box-shadow: 5px 5px 3px 1px rgba(0,0,0,.4);
 }
 
 #grad11 {
     height: 500px;
   background-image: url("https://cryptosolar.github.io/medi.png");
+  box-shadow: inset 0 0 10px 0 rgba(0,0,0,.4);
+}
+
+#shadow1 {
+			box-shadow: 5px 5px;
+}
+#shadow2 {
+			box-shadow: 5px 5px 3px 1px #999;
+}
+#shadow3 {
+			box-shadow: 5px 5px 3px 1px rgba(0,0,0,.4);
+}
+#shadow4 {
+			box-shadow: 0 0 10px 0 rgba(0,0,0,.4);
+}
+#shadow5 {
+			box-shadow: inset 0 0 10px 0 rgba(0,0,0,.4);
+}
+
+
+#shadowBoxer {
+			width: 120px;
+			height: 90px;
+			padding: 30px 40px;
+			box-shadow: 0 0 20px 5px #06c;
+}
+
+#navlist {
+  position: relative;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 44px;
+  display: block;
+}
+
+#home {
+  left: 0px;
+  width: 46px;
+   background: url("https://cryptosolar.github.io/img_navsprites_hover.gif") 0 0;
+}
+
+#prev {
+  left: 63px;
+  width: 43px;
+   background: url("https://cryptosolar.github.io/img_navsprites_hover.gif") -47px 0;
+}
+
+#next {
+  left: 129px;
+  width: 43px;
+  background: url("https://cryptosolar.github.io/img_navsprites_hover.gif") -91px 0;
+}
+
+#home {
+  left: 0px;
+  width: 46px;
+  background: url("https://cryptosolar.github.io/img_navsprites_hover.gif") 0 0;
+}
+
+#prev {
+  left: 63px;
+  width: 43px;
+  background: url("https://cryptosolar.github.io/img_navsprites_hover.gif") -47px 0;
+}
+
+#next {
+  left: 129px;
+  width: 43px;
+  background: url("https://cryptosolar.github.io/img_navsprites_hover.gif") -91px 0;
 }
